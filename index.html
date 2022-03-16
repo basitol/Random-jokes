@@ -15,15 +15,32 @@
 <body>
     <div class="container">
         <div class="card">
-            <div class="card--text jokes">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nulla odit voluptate eligendi numquam
-                suscipit! Porro ullam esse,
+            <div class="card--header">
+                Quote of the day
+            </div>
+            <div class="content">
+                <div class="card--text jokes">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore temporibus nobis tempore, ea
+                        nesciunt quo, ad earum enim aspernatur provident cum sint in maiores ducimus, maxime ipsum a
+                        nostrum.
+                        Iste!
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="card--author">
+                    <span>__</span>
+                    <span class="name">Basit Quadri</span>
+                </div>
             </div>
             <div class="card--button">
-                <button onclick="loadJokes()">Get Jokes</button>
+                <button onclick="loadJokes()">New Quote</button>
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/375050d464.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
