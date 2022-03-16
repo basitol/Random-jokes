@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  width: 400px;
+  height: 150px;
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 10px;
+  background: #aac4f3;
+}
+
+.container .card--button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.container .card--button button {
+  outline: none;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.container .card--button button:focus, .container .card--button button:hover {
+  background: rgba(41, 236, 116, 0.979);
+}
+/*# sourceMappingURL=style.css.map */
