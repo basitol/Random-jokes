@@ -116,7 +116,8 @@ body {
   cursor: pointer;
 }
 
-.container .card--button button:hover {
-  background: rgba(41, 236, 116, 0.979);
+.container .card--button button.loading {
+  opacity: 0.7;
+  pointer-events: none;
 }
 /*# sourceMappingURL=style.css.map */

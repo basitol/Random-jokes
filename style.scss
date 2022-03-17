@@ -45,6 +45,9 @@ body {
       display: flex;
       justify-content: center;
 
+      .quote {
+      }
+
       i {
         font-size: 15px;
         width: 15px;
@@ -92,9 +95,14 @@ body {
         transition: all 200ms ease;
         cursor: pointer;
 
-        &:hover {
-          background: rgba(41, 236, 116, 0.979);
+        &.loading {
+          opacity: 0.7;
+          pointer-events: none;
         }
+
+        // &:hover {
+        //   background: rgb(115, 185, 250);
+        // }
       }
     }
   }
